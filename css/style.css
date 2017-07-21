@@ -131,13 +131,17 @@ NAVBAR
 .navbar-brand {
 	height: 90px;
 	padding: 10px;
+	
 }
 
 .navbar-brand img {
 	max-height: 85px;
 }
+.navbar-default p{
+		padding: 35px 23px;
+}
 
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+.navbar-default .navbar-nav>li>a {
 	font-size: 13px;
 	color: #707070;
 	padding: 35px 23px;
@@ -601,8 +605,11 @@ RESPONSIVE
 	NAVBAR
 	***********************/
 
-	.navbar-default .navbar-nav, .navbar-brand{
+	.navbar-default .navbar-nav, .navbar-brand p{
 		text-align: center;
+	}
+	.navbar-default p{
+		padding: 5px 0:
 	}
 
 	.navbar-default .navbar-nav>li>a {
