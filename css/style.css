@@ -612,7 +612,9 @@ RESPONSIVE
 	.navbar-default .navbar-nav{
 		text-align: center;
 	}
-	
+	.navbar-default p{
+		padding: 20px 20px;
+	}
 
 	.navbar-default .navbar-nav>li>a {
 		padding: 20px 0;
