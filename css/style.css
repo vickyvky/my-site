@@ -560,6 +560,8 @@ RESPONSIVE
 
 @media only screen and (max-width: 1199px) {
 	
+	
+	
 	/**********************
 	CONTACT SECTION
 	***********************/
@@ -612,10 +614,7 @@ RESPONSIVE
 	.navbar-default .navbar-nav{
 		text-align: center;
 	}
-	.navbar-default .navbar-header p{ 
-		font-size: 15px;
-		padding: 37px 0px;
-	}
+	
 
 	.navbar-default .navbar-nav>li>a {
 		padding: 20px 0;
