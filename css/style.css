@@ -609,12 +609,10 @@ RESPONSIVE
 	NAVBAR
 	***********************/
 
-	.navbar-default .navbar-nav, .navbar-brand p{
+	.navbar-default .navbar-nav{
 		text-align: center;
 	}
-	.navbar-default p{
-		padding: 0 20px;
-	}
+	
 
 	.navbar-default .navbar-nav>li>a {
 		padding: 20px 0;
