@@ -144,7 +144,7 @@ NAVBAR
 }
 
 .navbar-default .navbar-nav>li>a:focus, 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover, #vky {
 	color: #00c7fc;
 	background-color: transparent;
 }
@@ -168,7 +168,7 @@ NAVBAR
 }
 
 .navbar-default .navbar-toggle:focus, 
-.navbar-default .navbar-toggle:hover, #vky {
+.navbar-default .navbar-toggle:hover{
 	background-color: transparent;
 }
 
@@ -601,7 +601,7 @@ RESPONSIVE
 	NAVBAR
 	***********************/
 
-	.navbar-default .navbar-nav {
+	.navbar-default .navbar-nav, .navbar-brand{
 		text-align: center;
 	}
 
