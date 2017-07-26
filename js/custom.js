@@ -1,11 +1,4 @@
-/*------------------------------------------------------------------
-Project:        Modus - HTML onepage theme by GraphBerry.com
-Version:        1.0
-Last change:    12/06/2017
-Author:         GraphBerry
-URL:            http://graphberry.com
-License:        http://graphberry.com/pages/license
--------------------------------------------------------------------*/
+
 $(function(){
 	'use strict';
 
