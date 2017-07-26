@@ -1,7 +1,7 @@
 <?php
-    $mailto = $_POST['mail_to'];
-    $mailSub = $_POST['mail_sub'];
-    $mailMsg = $_POST['mail_msg'];
+    $mailto = "imvickyvky@gmail.com";
+    $mailSub = $_POST['Email'];
+    $mailMsg = $_POST['Message'];
    require 'PHPMailer-master/PHPMailerAutoload.php';
    $mail = new PHPMailer();
    $mail ->IsSmtp();
@@ -11,7 +11,7 @@
    $mail ->Host = "smtp.gmail.com";
    $mail ->Port = 465; // or 587
    $mail ->IsHTML(true);
-   $mail ->Username = "yourmail@gmail.com";
+   $mail ->Username = "@gmail.com";
    $mail ->Password = "yourpassword";
    $mail ->SetFrom("yourmail@gmail.com");
    $mail ->Subject = $mailSub;
